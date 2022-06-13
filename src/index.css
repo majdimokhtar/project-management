@@ -44,6 +44,20 @@ ul {
   color: #fff;
   background-color: var(--primary-color);
 }
+/* delete btn */
+.btn-danger {
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: var(--danger);
+  cursor: pointer;
+  font-size: 1em;
+  border: 1px solid var(--danger);
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: var(--danger);
+}
 
 /* forms */
 label {
