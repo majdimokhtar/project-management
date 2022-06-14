@@ -15,7 +15,7 @@ export default function Navbar() {
 <ul>
     <li className='logo'>
     <img src={Temple} alt="logo" />
-    <span>Management.</span>
+    <span className='logo-name'>Manage-T</span>
     </li>
 
     {/* user not logged in */}

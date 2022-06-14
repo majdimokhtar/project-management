@@ -3,6 +3,7 @@ import Avatar from "../../components/Avatar"
 import { useFirestore } from '../../hooks/useFirestore'
 import { useAuthContext } from '../../hooks/useAuthContext'
 import { useHistory } from 'react-router-dom'
+
 // style
 import "./Projects.css"
 
@@ -18,7 +19,7 @@ export default function ProjectSummary({project}) {
     <div>
         <div className='project-summary'>
         <h2 className='page-title'>{project.name}</h2>
-        <p>{project.createdBy.displayName}</p>
+        <p>By {project.createdBy.displayName}</p>
         <p className='due-date'>
             Project due by {project.dueDate.toDate().toDateString()}
         </p>
